@@ -1,4 +1,15 @@
+header {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #cccccc;
+}
+
+body {
+    background-color: #ffffff;
+}
+
 #profilePicture {
     width: 300px;
-    height: 300px;
+    height: 250x;
 }
