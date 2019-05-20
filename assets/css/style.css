@@ -19,6 +19,8 @@ h1 {
 nav {
     text-align: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    margin: 50px;
 }
 
 body {
