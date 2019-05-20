@@ -1,9 +1,10 @@
 header {
     background-color: #ffffff;
     padding: 10px;
-    border: 20px, 30%, solid, #cccccc;
+    border: solid, #cccccc;
     margin-top: 0%;
     margin-bottom: 20px;
+ /* float: right; this doesn't seem to work with the clearfix below*/
 }
 
 h1 {
@@ -19,6 +20,11 @@ nav {
     float: right;
     margin: 50px;
 }
+/*.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}*/
 
 body {
     background-color: #cccccc;
@@ -44,10 +50,6 @@ h2 {
     height: 250x;
     padding: 15px;
     float: left;
-}
-
-p {
-    
 }
 
 footer {
