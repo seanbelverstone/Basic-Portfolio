@@ -6,17 +6,37 @@ header {
     margin-bottom: 20px;
 }
 
+nav {
+    text-align: right;
+}
+
 body {
     background-color: #ffffff;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #profilePicture {
     width: 300px;
     height: 250x;
+    padding: 15px;
+    float: left;
+}
+
+p {
+    
 }
 
 footer {
     margin-top: 20px;
+    padding: 10px;
+    border-top: 10px;
+    border-top-color: blue;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
 }
