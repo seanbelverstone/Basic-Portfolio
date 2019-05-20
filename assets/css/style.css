@@ -32,13 +32,13 @@ nav {
 
 body {
     background-color: #cccccc;
-
+    margin: 0 auto;
+    width: 960px;
 }
 
 #aboutMe {
-    margin: 20px 200px 200px 200px;
+    margin: 20px 0;
     padding: 60px;
-    border: 20px;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -57,9 +57,9 @@ h2 {
 footer {
     margin-top: 20px;
     padding: 10px;
-    border: 10px, blue, solid;
     text-align: center;
     background-color: #666666;
+    border: 10px, blue, solid;
     width: 100%;
     position: fixed;
     left: 0;
