@@ -26,7 +26,7 @@ body {
 }
 
 #aboutMe {
-    margin-bottom: 0px;
+    margin-bottom: 200px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 60px;
@@ -53,8 +53,7 @@ p {
 footer {
     margin-top: 20px;
     padding: 10px;
-    border-top: 10px;
-    border-top-color: blue;
+    border: 10px, blue, solid;
     text-align: center;
     background-color: #666666;
     width: 100%;
