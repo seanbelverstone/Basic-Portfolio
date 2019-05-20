@@ -1,8 +1,11 @@
 header {
-    background-color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 30%;
     border-color: #cccccc;
+    border: 20px;
+    margin-top: 0%;
     margin-bottom: 20px;
 }
 
@@ -11,9 +14,17 @@ nav {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #cccccc;
+
+}
+
+section {
+    margin-bottom: 0px;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 60px;
+    border: 20px;
+    background-color: white;
 }
 
 #profilePicture {
