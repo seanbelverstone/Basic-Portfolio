@@ -1,10 +1,7 @@
 header {
     background-color: #ffffff;
     padding: 10px;
-    border-style: solid;
-    border-width: 30%;
-    border-color: #cccccc;
-    border: 20px;
+    border: 20px, 30%, solid, #cccccc;
     margin-top: 0%;
     margin-bottom: 20px;
 }
