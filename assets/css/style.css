@@ -1,10 +1,14 @@
 header {
-    background-color: #ffffff;
     padding: 10px;
-    border: solid, #cccccc;
+    border: 10px, solid, #cccccc;
     margin-top: 0%;
     margin-bottom: 20px;
- /* float: right; this doesn't seem to work with the clearfix below*/
+    float: left;
+}
+
+.header-nav {
+    background-color: white;
+    min-height: 50px;
 }
 
 h1 {
@@ -20,11 +24,11 @@ nav {
     float: right;
     margin: 50px;
 }
-/*.clearfix::after{
+ .clearfix::after{
     content:"";
     display: block;
     clear: both;
-}*/
+}
 
 body {
     background-color: #cccccc;
@@ -32,9 +36,7 @@ body {
 }
 
 #aboutMe {
-    margin-bottom: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 20px 200px 200px 200px;
     padding: 60px;
     border: 20px;
     background-color: white;
