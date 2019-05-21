@@ -1,7 +1,6 @@
 header {
     padding: 10px;
-    border: 10px, solid, #cccccc;
-    margin-top: 0%;
+    margin-top: 25px;
     margin-bottom: 20px;
     float: left;
 }
@@ -15,7 +14,8 @@ h1 {
     padding: 10px;
     background-color: #4aaaa5;
     color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 nav {
@@ -29,6 +29,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 4px;
+    border-right: 1px gray solid;
 }
 
  .clearfix::after{
@@ -47,16 +53,18 @@ body {
     margin: 20px 0;
     padding: 60px;
     background-color: white;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding-left: 15px;
 }
 
 #profilePicture {
     width: 300px;
-    height: 250x;
+    height: 230x;
     padding: 15px;
     float: left;
 }
