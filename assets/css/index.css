@@ -12,6 +12,32 @@ header {
     float: left;
 }
 
+nav {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    margin: 50px;
+}
+
+/*nav link styling*/
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:active {
+    color: black;
+}
+
 h1 {
     padding: 10px;
     background-color: #4aaaa5;
@@ -61,12 +87,14 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     padding-left: 15px;
-    
+    border-bottom: 2px solid gray;
 }
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    text-decoration: underline;
+    margin-top: 15px;
 }
 
 #profilePicture {
@@ -74,6 +102,10 @@ h3 {
     height: 230x;
     padding: 15px;
     float: left;
+}
+
+p {
+    margin: 10px 10px;
 }
 
 /*footer*/
