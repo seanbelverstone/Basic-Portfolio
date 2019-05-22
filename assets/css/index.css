@@ -76,11 +76,12 @@ body {
     width: 960px;
 }
 
-#aboutMe {
+#aboutMe, .portfolio {
     margin: 20px 0;
     padding: 60px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    height: auto;
 }
 
 h2 {
