@@ -19,7 +19,7 @@ nav {
     margin: 50px;
 }
 
-/*nav link styling*/
+/*nav link styling start*/
 
 a:link {
     text-decoration: none;
@@ -37,6 +37,8 @@ a:hover {
 a:active {
     color: black;
 }
+
+/*nav link styling end*/
 
 h1 {
     padding: 10px;
@@ -87,6 +89,7 @@ body {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    color: #4aaaa5;
     padding-left: 15px;
     border-bottom: 2px solid gray;
 }
