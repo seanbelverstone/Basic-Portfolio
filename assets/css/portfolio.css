@@ -6,5 +6,18 @@ h2 {
 }
 
 #hangman, #rpg, #trivia, #rutgers, #rock {
-    margin: 20px 20px 20px 0;
+    margin: 40px 40px 40px 0;
+    height: 300px;
+    width: 300px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 16pt;
+    text-decoration: none;
+    width: 280px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
 }
