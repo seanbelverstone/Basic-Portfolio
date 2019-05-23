@@ -78,7 +78,7 @@ body {
     width: 960px;
 }
 
-#aboutMe, .portfolio {
+#aboutMe, .portfolio, .contact {
     margin: 20px 0;
     padding: 60px;
     background-color: white;
