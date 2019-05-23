@@ -88,6 +88,7 @@ body {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    font-weight: bold;
     color: #4aaaa5;
     padding-left: 15px;
     border-bottom: 2px solid gray;
